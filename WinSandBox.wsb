@@ -1,0 +1,21 @@
+<Configuration>
+    <MappedFolders>
+        <MappedFolder>
+            <!-- Create a drive mapping that mirrors my Scripts folder -->
+            <HostFolder>C:\Sandbox\Shared</HostFolder>
+            <SandboxFolder>C:\Shared</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+        <MappedFolder>
+            <!-- Create a drive mapping that mirrors my Scripts folder -->
+            <HostFolder>C:\Sandbox</HostFolder>
+            <SandboxFolder>C:\Sandbox</SandboxFolder>
+            <ReadOnly>true</ReadOnly>
+        </MappedFolder>
+    </MappedFolders>
+    <ClipboardRedirection>true</ClipboardRedirection>
+    <MemoryInMB>4096</MemoryInMB>
+    <LogonCommand>
+        <Command>C:\Sandbox\sandbox-setup.cmd</Command>
+    </LogonCommand>
+</Configuration>
